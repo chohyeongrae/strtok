@@ -8,6 +8,7 @@ int main(void){
     scanf("%[^\n]s",str);
     printf("strtok 출력\n");
     my_strtok(str," ");
+    return 0;
 }
 
 void my_strtok(char *str1,char *str2){
